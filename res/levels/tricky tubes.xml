@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level>
+    <id>93</id>
+    <name>Tricky Tubes</name>
+    <tileset filename="tricky tubes.lvl"/>
+    <explosions filename="../images/explosions_40x40.png"/>
+    <background filename="../images/star_background_2_200x200.png">
+        <scrollspeed>1</scrollspeed>
+        <soundfile>../sounds/game_loop.wav</soundfile>
+        <volume>70</volume>
+    </background>
+    <statusBar filename="../images/font_yellow_10x10.png">
+        <frameWidth>10</frameWidth>
+        <frameHeight>10</frameHeight>
+        <letterCount>26</letterCount>
+        <capitalOffset>1</capitalOffset>
+        <minusculeOffset>2</minusculeOffset>
+        <numberOffset>0</numberOffset>
+        <offsetToMid>1</offsetToMid>
+    </statusBar>
+    <player filename="../images/player_animated_55x43_transparent.png">
+        <numFrames>24</numFrames>
+        <frameWidth>55</frameWidth>
+        <frameHeight>43</frameHeight>
+        <positionX>100</positionX>
+        <positionY>100</positionY>
+        <stdWeapon>LASER_GUN</stdWeapon>
+        <colorOffsetX>1320</colorOffsetX>
+        <colorOffsetY>0</colorOffsetY>
+        <moveForceX>200</moveForceX>
+        <moveForceY>200</moveForceY>
+        <maxVel>200</maxVel>
+        <fps>12</fps>
+        <explosionSoundFile>../sounds/player_explosion.wav</explosionSoundFile>
+        <explosionVolume>100</explosionVolume>
+        <hitSoundFile>../sounds/hit_mark.wav</hitSoundFile>
+        <hitVolume>100</hitVolume>
+        <health>100</health>
+        <collisionDamage>25</collisionDamage>
+    </player>
+    <bot type="BOT_SPACESHIP_AI">
+        <positionX>760</positionX>
+        <positionY>400</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1920</positionX>
+        <positionY>40</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1920</positionX>
+        <positionY>320</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1960</positionX>
+        <positionY>320</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2000</positionX>
+        <positionY>320</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2040</positionX>
+        <positionY>320</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2080</positionX>
+        <positionY>320</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2080</positionX>
+        <positionY>360</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2040</positionX>
+        <positionY>360</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2000</positionX>
+        <positionY>360</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1960</positionX>
+        <positionY>360</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1920</positionX>
+        <positionY>360</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1920</positionX>
+        <positionY>400</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1960</positionX>
+        <positionY>400</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2000</positionX>
+        <positionY>400</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2040</positionX>
+        <positionY>400</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2080</positionX>
+        <positionY>400</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1920</positionX>
+        <positionY>280</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1960</positionX>
+        <positionY>280</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2000</positionX>
+        <positionY>280</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>2040</positionX>
+        <positionY>280</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_BUBBLE_AI">
+        <positionX>3080</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>1920</positionX>
+        <positionY>80</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_SPACESHIP_AI">
+        <positionX>3960</positionX>
+        <positionY>200</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_SPACESHIP_AI">
+        <positionX>3640</positionX>
+        <positionY>200</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>5240</positionX>
+        <positionY>440</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>5240</positionX>
+        <positionY>480</positionY>
+        <color>black</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>5240</positionX>
+        <positionY>40</positionY>
+        <color>black</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_WHIRL_NO_MOVE">
+        <positionX>5240</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>5760</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>5800</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_SPACESHIP_AI">
+        <positionX>760</positionX>
+        <positionY>120</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_BUBBLE_AI">
+        <positionX>3080</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_SPACESHIP_AI">
+        <positionX>3640</positionX>
+        <positionY>320</positionY>
+        <color>black</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_SPACESHIP_AI">
+        <positionX>3960</positionX>
+        <positionY>320</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOSS_WIEMAN_CIRCLE">
+        <positionX>6600</positionX>
+        <positionY>200</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>5840</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>5880</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>5920</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>5960</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>6000</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>6040</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>6080</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_CROSS_SIN_UP">
+        <positionX>6120</positionX>
+        <positionY>80</positionY>
+        <color>white</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>5880</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="0">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>5920</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>5960</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>6000</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>6040</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>6080</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>6120</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>5840</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>5800</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <bot type="BOT_DRONE_SIN_DOWN">
+        <positionX>5760</positionX>
+        <positionY>360</positionY>
+        <color>black</color>
+        <powerUp probability="20">RESTORE_HEALTH</powerUp>
+    </bot>
+    <item type="WEAPON_BLASTER_GUN">
+        <positionX>200</positionX>
+        <positionY>360</positionY>
+        <value>50</value>
+    </item>
+    <item type="WEAPON_ROCKET_GUN">
+        <positionX>200</positionX>
+        <positionY>280</positionY>
+        <value>50</value>
+    </item>
+    <item type="RESTORE_HEALTH">
+        <positionX>2040</positionX>
+        <positionY>160</positionY>
+        <value>50</value>
+    </item>
+    <item type="WEAPON_BLASTER_GUN">
+        <positionX>3000</positionX>
+        <positionY>160</positionY>
+        <value>50</value>
+    </item>
+    <item type="WEAPON_ROCKET_GUN">
+        <positionX>3000</positionX>
+        <positionY>240</positionY>
+        <value>50</value>
+    </item>
+    <item type="GODMODE">
+        <positionX>1360</positionX>
+        <positionY>200</positionY>
+        <value>50</value>
+    </item>
+    <item type="WEAPON_LASER_GUN">
+        <positionX>2080</positionX>
+        <positionY>160</positionY>
+        <value>50</value>
+    </item>
+    <item type="RESTORE_HEALTH">
+        <positionX>4080</positionX>
+        <positionY>120</positionY>
+        <value>50</value>
+    </item>
+    <item type="RESTORE_HEALTH">
+        <positionX>4080</positionX>
+        <positionY>400</positionY>
+        <value>50</value>
+    </item>
+    <item type="WEAPON_LASER_GUN">
+        <positionX>5000</positionX>
+        <positionY>240</positionY>
+        <value>50</value>
+    </item>
+</level>

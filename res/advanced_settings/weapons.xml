@@ -1,0 +1,77 @@
+<weapons>
+    <weapon type="LASER_GUN">
+        <filename>../images/weapon_laser_30x12.png</filename>
+        <colorOffsetX>0</colorOffsetX>
+        <colorOffsetY>12</colorOffsetY>
+        <soundfile>../sounds/laser.wav</soundfile>
+        <projectileVolume>50</projectileVolume>
+        <frameWidth>30</frameWidth>
+        <frameHeight>12</frameHeight>
+        <weaponOffsetX>25</weaponOffsetX>
+        <weaponOffsetY>18.5</weaponOffsetY>
+        <cooldown>0.5</cooldown>
+        <collisionDamage>25</collisionDamage>
+        <speed>1000</speed>
+        <numFrames>2</numFrames>
+    </weapon>
+    <weapon type="BLASTER_GUN">
+        <filename>../images/weapon_blaster_20x10.png</filename>
+        <colorOffsetX>0</colorOffsetX>
+        <colorOffsetY>10</colorOffsetY>
+        <soundfile>../sounds/blaster.wav</soundfile>
+        <projectileVolume>75</projectileVolume>
+        <frameWidth>20</frameWidth>
+        <frameHeight>10</frameHeight>
+        <weaponOffsetX>25</weaponOffsetX>
+        <weaponOffsetY>18.5</weaponOffsetY>
+        <cooldown>0.2</cooldown>
+        <collisionDamage>5</collisionDamage>
+        <speed>1500</speed>
+        <numFrames>2</numFrames>
+    </weapon>
+    <weapon type="ROCKET_GUN">
+        <filename>../images/weapon_rocket_22x10.png</filename>
+        <colorOffsetX>0</colorOffsetX>
+        <colorOffsetY>10</colorOffsetY>
+        <soundfile>../sounds/rocket.wav</soundfile>
+        <projectileVolume>50</projectileVolume>
+        <frameWidth>22</frameWidth>
+        <frameHeight>10</frameHeight>
+        <weaponOffsetX>25</weaponOffsetX>
+        <weaponOffsetY>18.5</weaponOffsetY>
+        <cooldown>0.7</cooldown>
+        <collisionDamage>50</collisionDamage>
+        <speed>500</speed>
+        <numFrames>4</numFrames>
+    </weapon>
+    <weapon type="MEATBALL_GUN">
+        <filename>../images/meatball_45x45.png</filename>
+        <colorOffsetX>0</colorOffsetX>
+        <colorOffsetY>45</colorOffsetY>
+        <soundfile>../sounds/gun.wav</soundfile>
+        <projectileVolume>50</projectileVolume>
+        <frameWidth>45</frameWidth>
+        <frameHeight>45</frameHeight>
+        <weaponOffsetX>25</weaponOffsetX>
+        <weaponOffsetY>18.5</weaponOffsetY>
+        <cooldown>0.5</cooldown>
+        <collisionDamage>30</collisionDamage>
+        <speed>200</speed>
+        <numFrames>14</numFrames>
+    </weapon>
+    <weapon type="CPP_GUN">
+        <filename>../images/weapon_cpp_49x22.png</filename>
+        <colorOffsetX>0</colorOffsetX>
+        <colorOffsetY>22</colorOffsetY>
+        <soundfile>../sounds/gun.wav</soundfile>
+        <projectileVolume>50</projectileVolume>
+        <frameWidth>49</frameWidth>
+        <frameHeight>22</frameHeight>
+        <weaponOffsetX>25</weaponOffsetX>
+        <weaponOffsetY>130</weaponOffsetY>
+        <cooldown>0.5</cooldown>
+        <collisionDamage>30</collisionDamage>
+        <speed>200</speed>
+        <numFrames>12</numFrames>
+    </weapon>
+</weapons>
